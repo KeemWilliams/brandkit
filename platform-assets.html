@@ -8,7 +8,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; max-width: 100%; }
+  img, svg, video { max-width: 100%; height: auto; }
+  table { max-width: 100%; overflow-x: auto; display: block; }
 
   :root {
     --bg: #0D1117;
@@ -24,7 +26,7 @@
     --radius: 10px;
   }
 
-  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; overflow-x: hidden; }
 
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -32,6 +34,7 @@
     color: var(--text);
     line-height: 1.6;
     min-height: 100vh;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -1300,7 +1303,7 @@
   <h4 style="color:var(--amber);text-transform:uppercase;letter-spacing:0.5px;font-size:0.85rem;margin-bottom:12px;">Mark (4-bar) — All Variants</h4>
   <div class="asset-row">
     <div class="asset-card" style="flex:1 1 100%;max-width:100%;">
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;">
         <!-- Dark variant -->
         <div>
           <h4 style="font-size:0.75rem;margin-bottom:8px;">Dark</h4>
@@ -1464,7 +1467,7 @@
   <h4 style="color:var(--amber);text-transform:uppercase;letter-spacing:0.5px;font-size:0.85rem;margin-bottom:12px;">Color Palette Reference</h4>
   <div class="asset-row">
     <div class="asset-card" style="flex:1 1 100%;max-width:100%;">
-      <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:12px;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;">
         <div style="text-align:center;">
           <div style="width:100%;aspect-ratio:1;background:#4F9E80;border-radius:8px;border:1px solid var(--border);"></div>
           <div style="margin-top:8px;font-size:0.75rem;color:var(--text);font-weight:600;">Primary</div>
