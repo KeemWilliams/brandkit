@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 175" role="img" aria-label="Helix Stax horizontal lockup — light mode" id="helix-v15-hz-light">
+  <title>Helix Stax horizontal lockup — light mode</title>
+  <!--
+    Helix Stax v15 — horizontal lockup, light mode. Canvas: 810×175.
+    Mark: crop viewBox 57 131 374 250 → rendered 230×175.
+    Layout: [MARK 0–230] [22px gap] [HELIX text-anchor=start x=252] [22px gap] [STAX text-anchor=start x=532]
+    Baseline y=175 — aligns text floor with bar 4 bottom edge (250 viewBox units × 0.7 scale = 175px).
+    Equal spacing: mark-end(230) → HELIX-start(252) = 22px; HELIX-end(~510) → STAX-start(532) = 22px.
+    WCAG-verified bar colors on #F7F5F0.
+    FONT NOTE: This file uses Space Grotesk from Google Fonts. Load externally:
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@200;600&display=swap" rel="stylesheet">
+    Or convert text to paths for fully self-contained export.
+  -->
+  <!-- Mark: cropped to content bounds, rendered 230×175 -->
+  <svg x="0" y="0" width="230" height="175" viewBox="57 131 374 250">
+    <polygon id="helix-v15-hz-bar1-amber" points="196.0,131 316.0,131 292.0,183 172.0,183" fill="#A07A3D"/>
+    <polygon id="helix-v15-hz-bar2-teal-bright" points="157.5,197 354.5,197 330.5,249 133.5,249" fill="#357A5C"/>
+    <polygon id="helix-v15-hz-bar3-teal-mid" points="119.5,263 392.5,263 368.5,315 95.5,315" fill="#2D6E55"/>
+    <polygon id="helix-v15-hz-bar4-teal-deep" points="81.0,329 431.0,329 407.0,381 57.0,381" fill="#1E4E38"/>
+  </svg>
+  <!-- Wordmark: Space Grotesk 600/200, dark text on light. Baseline y=175 (bar 4 floor). Equal 22px gaps. -->
+  <text x="252" y="175" text-anchor="start" dominant-baseline="alphabetic"
+    font-family="'Space Grotesk', system-ui, sans-serif"
+    font-size="76" font-weight="600" letter-spacing="5.7" fill="#0D1117">HELIX</text>
+  <text x="532" y="175" text-anchor="start" dominant-baseline="alphabetic"
+    font-family="'Space Grotesk', system-ui, sans-serif"
+    font-size="76" font-weight="200" letter-spacing="9.2" fill="#0D1117">STAX</text>
+</svg>

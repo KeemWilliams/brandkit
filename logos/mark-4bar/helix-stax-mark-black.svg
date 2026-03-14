@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Helix Stax mark — single color dark" id="helix-v15-mark-black">
+  <title>Helix Stax mark — single color dark</title>
+  <!-- Helix Stax v15 — single color dark #0D1117, for light backgrounds and print -->
+  <!-- Opacity gradient: 100% / 75% / 55% / 38% top to bottom -->
+  <polygon id="helix-v15-bar1" points="196.0,131 316.0,131 292.0,183 172.0,183" fill="#0D1117"/>
+  <polygon id="helix-v15-bar2" points="157.5,197 354.5,197 330.5,249 133.5,249" fill="#0D1117" opacity="0.75"/>
+  <polygon id="helix-v15-bar3" points="119.5,263 392.5,263 368.5,315 95.5,315" fill="#0D1117" opacity="0.55"/>
+  <polygon id="helix-v15-bar4" points="81.0,329 431.0,329 407.0,381 57.0,381" fill="#0D1117" opacity="0.38"/>
+</svg>

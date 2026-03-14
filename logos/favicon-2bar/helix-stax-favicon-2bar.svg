@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Helix Stax favicon — 2-bar variant" id="helix-v15-fav2">
+  <title>Helix Stax favicon — 2-bar variant</title>
+  <!--
+    Helix Stax v15 — 2-bar favicon Option A, dark mode colors. Canvas: 64×64.
+    RECOMMENDED for 16px and 32px sizes.
+    Proportional to 4-bar mark. Bars amber (narrow) + teal deep (wide).
+    Bar height=7px, gap=2px, skew=3px.
+    Widths: amber=19px, teal=44px.
+    Stack centred at y=32: total height=2×7+2=16px → top y=32-8=24.
+  -->
+  <polygon id="helix-v15-fav2-bar-amber" points="18.0,24 37.0,24 34.0,31 15.0,31" fill="#C4975A"/>
+  <polygon id="helix-v15-fav2-bar-teal" points="10.0,33 54.0,33 51.0,40 7.0,40" fill="#357A5C"/>
+</svg>

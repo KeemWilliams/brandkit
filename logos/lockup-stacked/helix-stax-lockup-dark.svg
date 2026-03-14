@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 430" role="img" aria-label="Helix Stax stacked lockup — dark mode" id="helix-v15-lockup-dark">
+  <title>Helix Stax stacked lockup — dark mode</title>
+  <!--
+    Helix Stax v15 — stacked lockup, dark mode.
+    FONT NOTE: This file uses Space Grotesk from Google Fonts. Load externally:
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@200;600&display=swap" rel="stylesheet">
+    Or convert text to paths for fully self-contained export.
+    Bars y-shifted -71px from mark. Wordmark baseline y=383.
+  -->
+  <!-- Mark bars -->
+  <polygon id="helix-v15-bar1-amber" points="196.0,60 316.0,60 292.0,112 172.0,112" fill="#C4975A" stroke="#0D1117" stroke-width="1.5"/>
+  <polygon id="helix-v15-bar2-teal-bright" points="157.5,126 354.5,126 330.5,178 133.5,178" fill="#72C4A6" stroke="#0D1117" stroke-width="1.5"/>
+  <polygon id="helix-v15-bar3-teal-mid" points="119.5,192 392.5,192 368.5,244 95.5,244" fill="#52A882" stroke="#0D1117" stroke-width="1.5"/>
+  <polygon id="helix-v15-bar4-teal-deep" points="81.0,258 431.0,258 407.0,310 57.0,310" fill="#357A5C" stroke="#0D1117" stroke-width="1.5"/>
+  <!-- Wordmark: Space Grotesk 600/200, white on dark -->
+  <text x="57" y="383" text-anchor="start" dominant-baseline="alphabetic"
+    font-family="'Space Grotesk', system-ui, sans-serif"
+    font-size="60" font-weight="600" letter-spacing="4.8" fill="#FFFFFF">HELIX</text>
+  <text x="431" y="383" text-anchor="end" dominant-baseline="alphabetic"
+    font-family="'Space Grotesk', system-ui, sans-serif"
+    font-size="60" font-weight="200" letter-spacing="7.2" fill="#FFFFFF">STAX</text>
+</svg>

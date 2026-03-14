@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+  role="img"
+  aria-labelledby="helix-v15-favicon-title"
+  focusable="false">
+  <!--
+    Helix Stax Favicon v15 — 3-bar simplified mark
+    64x64 viewBox, 25-degree skew, skew offset=5.1px at 11px bar height
+    Bar widths proportionally scaled from 512px canvas: 120, 273, 350 → 64px space
+    Colors: Amber #C4975A, Teal Core #52A882, Teal Deep #4A9070
+    Transparent background.
+    Do not recompute coordinates. Geometry reference in preview-v15-lena.html.
+  -->
+  <title id="helix-v15-favicon-title">Helix Stax</title>
+  <!-- Bar 1: amber, W=15px -->
+  <polygon id="helix-v15-fav-bar1" points="24.5,12.5 39.5,12.5 34.4,23.5 19.4,23.5" fill="#C4975A"/>
+  <!-- Bar 2: teal core, W=34px -->
+  <polygon id="helix-v15-fav-bar2" points="15.0,26.5 49.0,26.5 43.9,37.5 9.9,37.5" fill="#52A882"/>
+  <!-- Bar 3: teal deep, W=44px -->
+  <polygon id="helix-v15-fav-bar3" points="10.0,40.5 54.0,40.5 48.9,51.5 4.9,51.5" fill="#4A9070"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Helix Stax mark — light mode" id="helix-v15-mark-light">
+  <title>Helix Stax mark — light mode</title>
+  <!-- Helix Stax v15 — 4-bar mark, light mode colors on transparent background -->
+  <!-- WCAG-verified colors on #F7F5F0: 3.61:1 / 4.71:1 / 5.55:1 / 8.75:1 -->
+  <polygon id="helix-v15-bar1-amber" points="196.0,131 316.0,131 292.0,183 172.0,183" fill="#A07A3D"/>
+  <polygon id="helix-v15-bar2-teal-bright" points="157.5,197 354.5,197 330.5,249 133.5,249" fill="#357A5C"/>
+  <polygon id="helix-v15-bar3-teal-mid" points="119.5,263 392.5,263 368.5,315 95.5,315" fill="#2D6E55"/>
+  <polygon id="helix-v15-bar4-teal-deep" points="81.0,329 431.0,329 407.0,381 57.0,381" fill="#1E4E38"/>
+</svg>

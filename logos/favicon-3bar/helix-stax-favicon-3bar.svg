@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Helix Stax favicon — 3-bar variant" id="helix-v15-fav3">
+  <title>Helix Stax favicon — 3-bar variant</title>
+  <!--
+    Helix Stax v15 — 3-bar favicon, dark mode colors. Canvas: 64×64.
+    Proportional to 4-bar 512px mark. Scale: 512→64 = 0.125.
+    Uses bars 1, 3, 4 (skips bar 2 to maximise width spread).
+    Bar height=7px, gap=2px, skew=3px.
+    Widths: Bar1=19px, Bar3=31px, Bar4=44px.
+    Stack centred at y=32. Top=19px (43%), Mid=29px (71%), Base=38px (100%).
+    RECOMMENDED for 48px+ favicon sizes.
+  -->
+  <polygon id="helix-v15-fav3-bar1-amber" points="20.0,20 39.0,20 36.0,27 17.0,27" fill="#C4975A"/>
+  <polygon id="helix-v15-fav3-bar3-teal-mid" points="14.5,29 45.5,29 42.5,36 11.5,36" fill="#52A882"/>
+  <polygon id="helix-v15-fav3-bar4-teal-deep" points="10.0,38 54.0,38 51.0,45 7.0,45" fill="#357A5C"/>
+</svg>

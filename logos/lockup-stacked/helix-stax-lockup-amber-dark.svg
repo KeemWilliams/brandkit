@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 430" role="img" aria-label="Helix Stax amber variant stacked lockup — dark mode" id="helix-v15-lockup-amber-dark">
+  <title>Helix Stax amber variant stacked lockup — dark mode</title>
+  <!--
+    Helix Stax v15 — amber wordmark variant, dark mode.
+    HELIX text: slate #8B949E. STAX text: amber #C4975A.
+    FONT NOTE: This file uses Space Grotesk from Google Fonts. Load externally:
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@200;600&display=swap" rel="stylesheet">
+    Or convert text to paths for fully self-contained export.
+  -->
+  <!-- Mark bars — dark mode colors (no stroke on amber variant per preview) -->
+  <polygon id="helix-v15-bar1-amber" points="196.0,60 316.0,60 292.0,112 172.0,112" fill="#C4975A"/>
+  <polygon id="helix-v15-bar2-teal-bright" points="157.5,126 354.5,126 330.5,178 133.5,178" fill="#72C4A6"/>
+  <polygon id="helix-v15-bar3-teal-mid" points="119.5,192 392.5,192 368.5,244 95.5,244" fill="#52A882"/>
+  <polygon id="helix-v15-bar4-teal-deep" points="81.0,258 431.0,258 407.0,310 57.0,310" fill="#357A5C"/>
+  <!-- Wordmark: HELIX slate, STAX amber -->
+  <text x="57" y="383" text-anchor="start" dominant-baseline="alphabetic"
+    font-family="'Space Grotesk', system-ui, sans-serif"
+    font-size="60" font-weight="600" letter-spacing="4.8" fill="#8B949E">HELIX</text>
+  <text x="431" y="383" text-anchor="end" dominant-baseline="alphabetic"
+    font-family="'Space Grotesk', system-ui, sans-serif"
+    font-size="60" font-weight="200" letter-spacing="7.2" fill="#C4975A">STAX</text>
+</svg>

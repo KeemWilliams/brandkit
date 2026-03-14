@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Helix Stax mark — dark mode" id="helix-v15-mark-dark">
+  <title>Helix Stax mark — dark mode</title>
+  <!-- Helix Stax v15 — 4-bar mark, dark mode colors on transparent background -->
+  <!-- Bar widths: 120→197→273→350px. Skew 24px (25°). Top-midpoint x=256. -->
+  <!-- Colors bright-to-deep top-to-bottom: amber → bright teal → medium teal → deep teal -->
+  <!-- WCAG contrast on #0D1117: 7.14:1 / 9.21:1 / 6.56:1 / 3.69:1 -->
+  <polygon id="helix-v15-bar1-amber" points="196.0,131 316.0,131 292.0,183 172.0,183" fill="#C4975A" stroke="#0D1117" stroke-width="1.5"/>
+  <polygon id="helix-v15-bar2-teal-bright" points="157.5,197 354.5,197 330.5,249 133.5,249" fill="#72C4A6" stroke="#0D1117" stroke-width="1.5"/>
+  <polygon id="helix-v15-bar3-teal-mid" points="119.5,263 392.5,263 368.5,315 95.5,315" fill="#52A882" stroke="#0D1117" stroke-width="1.5"/>
+  <polygon id="helix-v15-bar4-teal-deep" points="81.0,329 431.0,329 407.0,381 57.0,381" fill="#357A5C" stroke="#0D1117" stroke-width="1.5"/>
+</svg>

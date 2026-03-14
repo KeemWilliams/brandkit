@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+  role="img"
+  aria-labelledby="helix-v15-light-title"
+  focusable="false">
+  <!--
+    Helix Stax Mark v15 — Light Mode
+    4-bar stacked pyramid, 25-degree skew, top-midpoint x=256
+    Colors: Amber #A07A3D, Teal #357A5C, Teal #2D6E55, Teal Deep #1E4E38
+    WCAG contrast on #F7F5F0: 3.61:1, 4.71:1, 5.55:1, 8.75:1
+    Transparent background — place on #F7F5F0 or any light surface.
+    Do not recompute coordinates. Geometry reference in preview-v15-lena.html.
+  -->
+  <title id="helix-v15-light-title">Helix Stax Mark</title>
+  <!-- Bar 1: amber apex, W=120px -->
+  <polygon id="helix-v15-light-bar1" points="196.0,131 316.0,131 292.0,183 172.0,183" fill="#A07A3D"/>
+  <!-- Bar 2: teal, W=197px -->
+  <polygon id="helix-v15-light-bar2" points="157.5,197 354.5,197 330.5,249 133.5,249" fill="#357A5C"/>
+  <!-- Bar 3: teal, W=273px -->
+  <polygon id="helix-v15-light-bar3" points="119.5,263 392.5,263 368.5,315 95.5,315" fill="#2D6E55"/>
+  <!-- Bar 4: teal deep, W=350px -->
+  <polygon id="helix-v15-light-bar4" points="81.0,329 431.0,329 407.0,381 57.0,381" fill="#1E4E38"/>
+</svg>
