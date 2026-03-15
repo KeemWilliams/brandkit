@@ -497,32 +497,15 @@
     .nav-brand { display: none; }
   }
 
-  /* ── Hero Landing — fixed parallax, content scrolls over ── */
+  /* ── Hero Landing ── */
   .hero-landing {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 80px 24px;
     background: radial-gradient(ellipse at 50% 30%, rgba(79,158,128,0.06) 0%, transparent 60%);
-    z-index: 0;
-  }
-  .hero-spacer {
-    height: 100vh;
-    position: relative;
-    z-index: 0;
-  }
-  .main-content {
-    position: relative;
-    z-index: 1;
-    background: var(--bg);
-    box-shadow: 0 -20px 60px rgba(0,0,0,0.5);
-    border-radius: 24px 24px 0 0;
   }
   .hero-landing a:hover {
     background: #3D876A;
@@ -627,12 +610,6 @@
     <a href="#checklist" style="display: inline-block; padding: 12px 32px; background: #4F9E80; color: #0D1117; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 15px; border-radius: 8px; text-decoration: none; transition: background 0.2s;">View Assets ↓</a>
   </div>
 </section>
-
-<!-- Spacer so content starts below hero -->
-<div class="hero-spacer"></div>
-
-<!-- Main content slides over the hero -->
-<div class="main-content">
 
 <!-- ─── NAV ─── -->
 <nav>
@@ -1696,21 +1673,9 @@
   document.addEventListener('keydown',function(e){if(e.code===ks[ki]){ki++;if(ki===ks.length){ki=0;var cols=['#4F9E80','#C4975A','#E8B165','#F0F4FF','#8896B3'],ps=[];for(var i=0;i<80;i++){var el=document.createElement('div');el.className='confetti-piece';var c=cols[Math.floor(Math.random()*cols.length)],sz=4+Math.random()*6;el.style.width=sz+'px';el.style.height=(Math.random()>0.5?sz:sz*0.4)+'px';el.style.background=c;el.style.borderRadius=Math.random()>0.5?'50%':'1px';el.style.left=(10+Math.random()*80)+'vw';el.style.top='-10px';document.body.appendChild(el);ps.push({el:el,y:-10,vy:2+Math.random()*4,vx:(Math.random()-0.5)*3,r:Math.random()*360,rs:(Math.random()-0.5)*10,g:0.08+Math.random()*0.04,o:1,fs:1500+Math.random()*1000})}var st=performance.now();(function af(now){var el2=now-st,done=true;ps.forEach(function(p){if(p.o<=0)return;done=false;p.vy+=p.g;p.y+=p.vy;p.r+=p.rs;if(el2>p.fs){p.o-=0.02;if(p.o<0)p.o=0}p.el.style.transform='translate3d('+p.vx*el2*0.02+'px,'+p.y+'px,0) rotate('+p.r+'deg)';p.el.style.opacity=p.o});if(el2<3000&&!done)requestAnimationFrame(af);else ps.forEach(function(p){if(p.el.parentNode)p.el.parentNode.removeChild(p.el)})})(st)}}else ki=0});
 })();
 
-// Hero parallax fade — hero fades out as you scroll past it
-(function() {
-  var hero = document.querySelector('.hero-landing');
-  if (!hero) return;
-  window.addEventListener('scroll', function() {
-    var scrollY = window.scrollY;
-    var heroH = window.innerHeight;
-    var progress = Math.min(scrollY / heroH, 1);
-    hero.style.opacity = 1 - progress;
-    hero.style.transform = 'scale(' + (1 + progress * 0.05) + ')';
-  }, { passive: true });
-})();
+// parallax removed — clean scroll
 </script>
 
-</div><!-- /.main-content -->
 
 </body>
 </html>
