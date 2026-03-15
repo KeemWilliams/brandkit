@@ -26,7 +26,7 @@
     --radius: 10px;
   }
 
-  html { scroll-behavior: smooth; scroll-padding-top: 72px; overflow-x: hidden; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; overflow: hidden auto; }
 
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -34,7 +34,6 @@
     color: var(--text);
     line-height: 1.6;
     min-height: 100vh;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -529,16 +528,7 @@
     background: #3D876A;
   }
 
-  /* 1. CURSOR TRAIL */
-  @media (hover: hover) {
-    .cursor-glow {
-      position: fixed; width: 30px; height: 30px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(79,158,128,0.03) 0%, transparent 70%);
-      pointer-events: none; z-index: 9999; transform: translate(-50%, -50%);
-      opacity: 0; transition: opacity 0.3s ease; will-change: transform, opacity;
-    }
-    .cursor-glow.visible { opacity: 1; }
-  }
+  /* cursor glow removed — more annoying than premium */
 
   /* 3. SKELETON LOADING */
   .img-skeleton { position: relative; overflow: hidden; background: #161B22; border-radius: 4px; display: inline-flex; }
@@ -1669,14 +1659,7 @@
   'use strict';
   var isDesktop = window.matchMedia('(hover: hover)').matches;
 
-  // 1. Cursor glow
-  if (isDesktop) {
-    var glow = document.createElement('div');
-    glow.className = 'cursor-glow';
-    document.body.appendChild(glow);
-    var mx=0,my=0,gx=0,gy=0,moving=false,ft;
-    document.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;if(!moving){moving=true;glow.classList.add('visible');(function t(){if(!moving)return;gx+=(mx-gx)*0.2;gy+=(my-gy)*0.2;glow.style.transform='translate3d('+(gx-15)+'px,'+(gy-15)+'px,0)';requestAnimationFrame(t)})()}clearTimeout(ft);ft=setTimeout(function(){glow.classList.remove('visible');moving=false},150)});
-  }
+  // cursor glow removed
 
   // 7. Stagger cards
   var cards=document.querySelectorAll('.asset-card');
